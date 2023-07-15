@@ -1,0 +1,115 @@
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        column-gap: 16px;
+        row-gap: 32px;
+
+    }
+
+    @media (max-width: 850px) {
+        .video-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .video-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .video-one:hover {
+        box-shadow: 2px 8px 4px #c1c1c1;
+        border-style: solid;
+        border-color: rgba(246, 246, 246, 0.18);
+        background-blend-mode: overlay;
+        padding-bottom: 32px;
+
+    }
+
+    .video-pics {
+        position: relative;
+    }
+
+    .video-time {
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+        position: absolute;
+        padding: 4px;
+        background-color: black;
+        color: white;
+        bottom: 16px;
+        right: 8px;
+        font-weight: 400;
+    }
+
+    .video-pics-cover {
+        width: 100%;
+    }
+
+    .channel-info {
+        display: grid;
+        grid-template-columns: 32px 1fr;
+        gap: 8px;
+
+    }
+
+    .channel-pic {
+
+
+    }
+    .channel-pic-profile {
+        width: 100%;
+        margin-top: 8px;
+        border-radius: 20px;
+    }
+
+    .video-info {
+        font-family: Arial, sans-serif;
+        margin-top: 0;
+    }
+
+    .p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .video-title {
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 8px;
+        line-height: 20px;
+        margin-bottom: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .video-author {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 16px;
+        margin-bottom: 0;
+        font-family: Arial, sans-serif;
+
+    }
+
+    .video-stat {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .video-two {
+
+    }
+    .video-three {
+        display: inline-block
+    }
+
+    .video-four {
+
+
+    }
